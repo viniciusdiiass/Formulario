@@ -1,0 +1,60 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formulário de Pesquisa</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Formulário de Pesquisa</h1>
+        <p id="description">"Obrigado por nos ajudar a melhorar a plataforma"</p>
+    </header>
+    <main id="main">
+    <form id="survey-form">
+
+        <div id="formulario-dados-pessoas">
+        <label for="name" id="name-label" id="name">Nome: <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required></label>
+        <label for="email" id="email-label">E-mail: <input type="email" name="name" id="email" placeholder="seuemail@email.com" required></label>
+        <label for="idade" id="number-label">Idade: <input type="number" name="idade" id="number" min="18" max="99" placeholder="XX"></label>
+        </div>
+
+        <div id="formulario-satisfacao">
+        <p id="survey-satisfacao">Você recomendaria freeCodeCamp a um amigo?</p>
+        <label></label><input name="user-recommend" value="survey-satisfacao-itens" type="radio" class="input-radio">Claro 😁</label>
+        <label></label><input name="user-recommend" value="survey-satisfacao-itens" type="radio" class="input-radio">Talvez 😕 </label>
+        <label></label><input name="user-recommend" value="survey-satisfacao-itens" type="radio" class="input-radio">Não 😞</label>
+
+
+        <p>Qual é o seu recurso favorito do freeCodeCamp?</p>
+        <select name="" id="dropdown">
+            <option>Desafios</option>
+            <option>Projetos Open Source</option>
+            <option>Comunidade</option>
+        </select>
+        </div>
+
+        <div id="formulario-sugestao">
+        <p>O que você gostaria de ver melhorado? (Marque todas as opções aplicáveis)</p>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Front-end Projects">Front-end Projects</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Back-end Projects">Back-end Projects</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Data Visualization">Data Visualization</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Challenges">Challenges</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Open Source Community">Open Source Community</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Gitter help rooms">Gitter help rooms</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Videos">Videos</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="City Meetups">City Meetups</label>       
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Wiki">Wiki</label>
+        <label><input type="checkbox" name="survey-melhorias" id="survey-melhorias" value="Forum">Forum</label>
+
+        <p>Algum comentário ou sugestão?</p>
+        <textarea name="sugestao" id="msg-sugestao" cols="60" rows="10" placeholder="Deixe aqui sua sugestão ou comentário"></textarea>
+        </div>
+        
+        <input type="submit" value="Enviar" id="submit">
+    </form>
+</main>
+</body>
+</html>

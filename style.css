@@ -1,0 +1,64 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background: url(https://images.pexels.com/photos/5428003/pexels-photo-5428003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+header{
+
+    text-align: center;
+    padding: 10px 10px;
+    color: #ffffff;
+}
+
+main{
+    width: 60%;
+    margin: 30px 260px;
+    padding: 10px 10px;
+    color: #2A2846;
+}
+
+main{
+    background: #fff5f5;
+        opacity: 90%;
+}
+
+
+#formulario-dados-pessoas , #formulario-satisfacao, #formulario-sugestao{
+    margin: 30px 30px;
+}
+
+#formulario-dados-pessoas input, #dropdown {
+    width: 70%;
+    height: 30px;
+}
+
+#formulario-dados-pessoas label, #formulario-satisfacao label,  #formulario-sugestao label {
+    display: block;
+    padding: 10px 10px;
+}
+
+#msg-sugestao{
+    width: 70%;
+    height: 90px;
+}
+
+
+#submit{
+display: block;
+width: 70%;
+padding: 0.75em;
+margin: 80px 70px;
+background: #f8f82b;
+color: #000000;
+border-radius: 2px;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+#submit:hover{
+    background:#EE9C0F;
+    color: #fff5f5;
+    transition: 2000ms;
+}
